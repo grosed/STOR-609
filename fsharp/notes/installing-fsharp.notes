@@ -6,7 +6,7 @@
 1) create installation directory and set environment variable to it for further use 
 
 mkdir dotnet-dir
-export DOTNET_DIR=./dotnet-dir
+export DOTNET_DIR=${PWD}/dotnet-dir
 
 2) cd to DOTNET_DIR
 
