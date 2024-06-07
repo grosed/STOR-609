@@ -3,9 +3,10 @@
 # install .NET SDK
 ------------------
 
-1) create installation directory 
+1) create installation directory and set environment variable to it for further use 
 
-export DOTNET_DIR=${<dotnet installation directory>}
+mkdir dotnet-dir
+export DOTNET_DIR=./dotnet-dir
 
 2) cd to DOTNET_DIR
 
