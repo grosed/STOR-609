@@ -3,29 +3,34 @@
 # install .NET SDK
 ------------------
 
+1) create installation directory 
 
-1) get installation script
+export DOTNET_DIR=${<dotnet installation directory>}
+
+2) cd to DOTNET_DIR
+
+cd ${DOTNET_DIR}
+
+3) get installation script
 
 wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
 
-2) make script executable
+4) make script executable
 
 chmod +x ./dotnet-install.sh
 
-3) install latest version
+5) install latest version
 
-./dotnet-install.sh --version latest
+./dotnet-install.sh --install-dir ${DOTNET_DIR} --version latest
 
 NOTE - remove --version latest to get most recent LTS
 
 4) configure paths
 
-export DOTNET_ROOT=$HOME/.dotnet
+export DOTNET_ROOT=${DOTNET_DIR}
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
 NOTE - could add these to .bashrc
-
-5) (optional) test installation
 
 
 
