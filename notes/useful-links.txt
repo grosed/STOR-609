@@ -2,3 +2,8 @@ functional programming in python
 -------------------------------
 
 https://github.com/sfermigier/awesome-functional-python
+
+package for functional proramming in python
+-------------------------------------------
+
+https://github.com/dbrattli/Expression/tree/main
