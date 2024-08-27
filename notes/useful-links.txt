@@ -7,3 +7,16 @@ package for functional proramming in python
 -------------------------------------------
 
 https://github.com/dbrattli/Expression/tree/main
+
+
+online turing machine simulator
+------------------------------
+
+https://turingmachinesimulator.com/
+
+
+fungal computing
+---------------
+
+https://www.youtube.com/watch?v=RVe94qa1ar4&t=101s
+
