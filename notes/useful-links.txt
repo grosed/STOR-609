@@ -20,3 +20,17 @@ fungal computing
 
 https://www.youtube.com/watch?v=RVe94qa1ar4&t=101s
 
+data structures
+----------------
+
+https://www.geeksforgeeks.org/why-is-binary-heap-preferred-over-bst-for-priority-queue/
+
+functional patterns
+--------------------
+
+https://www.geeksforgeeks.org/what-is-memoization-a-complete-tutorial/
+
+dynamic programming
+-------------------
+
+https://en.wikipedia.org/wiki/Dynamic_programming  (useful for checker board problem).
