@@ -1,0 +1,8 @@
+
+installing RISE presentation facilities
+---------------------------------------
+python -m pip install RISE
+pip install jupyterlab_rise
+
+Note - this only works fully when using jupyter lab
+
