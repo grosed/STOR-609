@@ -4,5 +4,8 @@ installing RISE presentation facilities
 python -m pip install RISE
 pip install jupyterlab_rise
 
-Note - this only works fully when using jupyter lab
+Notes
+- this only works fully when using jupyter lab
+- to set cell types for slideshow, use the call attributes editor
+- to start/stop slide show use alr-r
 
