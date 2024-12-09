@@ -34,3 +34,11 @@ dynamic programming
 -------------------
 
 https://en.wikipedia.org/wiki/Dynamic_programming  (useful for checker board problem).
+
+bactracking algoithm(s)
+-----------------------
+
+https://www.geeksforgeeks.org/backtracking-algorithms/
+https://en.wikipedia.org/wiki/Backtracking
+
+
