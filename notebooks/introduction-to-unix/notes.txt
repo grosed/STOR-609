@@ -1,0 +1,26 @@
+get the catalogue from gutenberg
+----------------------------------
+
+wget https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv.gz
+gunzip pg_catalog.csv.gz
+
+find references to works by Jane Austen
+---------------------------------------
+
+egrep  "Austen" pg_catalog.csv
+
+find the reference numbers for the works by jane austen
+-------------------------------------------------------
+egrep  "Austen" pg_catalog.csv | egrep -o "^[0-9]+"
+
+get the work with reference number <#>
+--------------------------------------
+
+https://www.gutenberg.org/ebooks/<#>.txt.utf-8
+
+
+create all of the links required for download
+--------------------------------------------
+
+egrep  "Austen" pg_catalog.csv | egrep -o "^[0-9]+" | xargs -I{} echo 'https://www.gutenberg.org/ebooks/{}.txt.utf-8'
+
