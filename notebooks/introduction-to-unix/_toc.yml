@@ -8,6 +8,6 @@ chapters:
 - file: redirection-pipes-tees
 - file: file-structure
 - file: shell-scripts
-- file: regular-expressions
 - file: processes
+- file: regular-expressions
 - file: references
