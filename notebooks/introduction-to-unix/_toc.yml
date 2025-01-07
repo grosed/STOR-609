@@ -9,4 +9,5 @@ chapters:
 - file: file-structure
 - file: shell-scripts
 - file: regular-expressions
+- file: processes
 - file: references
