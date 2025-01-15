@@ -1,0 +1,13 @@
+format: jb-book
+root: intro
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+chapters:
+- file: getting-started
+- file: some-basic-unix-commands
+- file: redirection-pipes-tees
+- file: file-structure
+- file: shell-scripts
+- file: processes
+- file: regular-expressions
+- file: references
