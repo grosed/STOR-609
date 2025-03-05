@@ -1,0 +1,13 @@
+Package: choH
+Type: Package
+Title: Tool for detecting changes in distribution
+Version: 1.0.0
+Date: 2025-03-03
+Authors@R: c(person("Daniel","Grose",email="dan.grose@lancaster.ac.uk",role=c("aut","cre")))
+Description: Determines the log liklihood of a changpoint at each location in an ordered data set. 
+License: GPL
+Imports: purrr
+LinkingTo:
+Depends: R (>= 3.5.0)
+NeedsCompilation: no
+Suggests: 
